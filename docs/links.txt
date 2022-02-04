@@ -1,5 +1,9 @@
 https://kidscancode.org/godot_recipes/2d/grid_movement/
 https://www.gdquest.com/tutorial/godot/2d/tactical-rpg-movement/
 https://github.com/GDQuest/godot-2d-tactical-rpg-movement
+https://craftpix.net/freebies/filter/sprites/page/4/
+http://finalbossblues.com/pixel-tutorials/
+https://www.spriters-resource.com/
+https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
 https://github.com/GDQuest/godot-2d-jrpg-combat
 https://github.com/GDQuest/godot-make-pro-2d-games

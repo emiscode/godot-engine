@@ -13,6 +13,11 @@ var move_right = "ui_right"
 var velocity = Vector2.ZERO
 
 func _ready():
+	$AnimatedSprite.play()
+	$AnimatedSprite2.play()
+	$AnimatedSprite3.play()
+	$AnimatedSprite4.play()
+	$AnimatedSprite6.play()
 	screen_size = get_viewport_rect().size
 
 func _process(delta):
@@ -42,8 +47,8 @@ func run_animated_sprite():
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
 		$AnimatedSprite.play()
-	else:
-		$AnimatedSprite.stop()
+	# else:
+		# $AnimatedSprite.stop()
 	
 func update_position(delta):
 	position += velocity * delta
@@ -57,4 +62,4 @@ func update_animation():
 		$AnimatedSprite.flip_h = velocity.x < 0
 	elif velocity.y != 0:
 		$AnimatedSprite.animation = "up"
-		$AnimatedSprite.flip_v = velocity.y > 0
+		# $AnimatedSprite.flip_v = velocity.y > 0
